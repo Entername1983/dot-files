@@ -1,0 +1,32 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "ctrl+shift+1",
+    "command": "vscode-lorem-ipsum-chuck-norris.line",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+2",
+    "command": "vscode-lorem-ipsum-chuck-norris.paragraph",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+3",
+    "command": "vscode-lorem-ipsum-chuck-norris.multipleParagraphs",
+    "when": "editorTextFocus"
+  },
+
+  {
+    "key": "ctrl+alt+down",
+    "command": "terminal.focus"
+  },
+  {
+    "key": "ctrl+i",
+    "command": "-editor.action.triggerSuggest",
+    "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly && !suggestWidgetVisible"
+  },
+  {
+    "key": "ctrl+shift+c ctrl+shift+l",
+    "command": "workbench.action.terminal.clear"
+  }
+]
